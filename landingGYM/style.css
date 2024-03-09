@@ -5,7 +5,7 @@
     --primary-color-light: #171c25;
     --primary-color-extra-light: #243557;
     --secondary-color: #03fcf0;
-    --secondary-color-dark: #264569;
+    --secondary-color-dark: #52a6bb;
     --text-light: #e0e7f1;
     --white: #ffffff; 
     --max-width: 1200px;
@@ -315,7 +315,7 @@ nav {
 }
 
 .join-image {
-    margin-top: 4rem;
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -363,14 +363,14 @@ nav {
 }
 
 .price-grid {
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .price-card {
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
     background-color: var(--primary-color-light);
